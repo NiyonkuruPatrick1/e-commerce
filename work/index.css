@@ -1,0 +1,242 @@
+.container{
+    background-color: blue;
+    width: 1700px;
+    height: 130px;
+}
+.emergency{
+    background-color: rgb(25, 255, 25);
+    height: 40px;
+    width: 1690px;
+    border-radius: 5px;
+}
+.emergency h1{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+}
+.emergency h4{
+    color: rgb(131, 129, 129);
+    margin-left: 1500px;
+    margin-top: -45px;
+}
+.emergency h4:hover{
+    color: dimgrey;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.division{
+    display: flex;
+}
+.division h1{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.division h1:hover{
+    text-decoration: underline;
+    color: darkturquoise;
+    cursor: pointer;
+}
+.division ul{
+    display: flex;
+    list-style: none;
+}
+.division ul li{
+    font-size: 25px;
+    margin-left: 30px;
+    padding: 30px;
+    margin-top: -10px;  
+}
+.division ul li:hover{
+    cursor: pointer;
+    color: yellow;
+    text-decoration: underline;
+}    
+.button{
+    background-color: rgb(4, 201, 4);
+    margin-left: 200px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(179, 179, 240);
+    color: yellow;
+}
+.button1{
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 25px;
+    margin-top: 25px;
+    background-color: rgb(250, 234, 234);
+    font-weight: lighter;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: pink;
+    color: indigo;
+}
+.image{
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.image h5{
+    color: red;
+    margin-right: 200px;
+    font-size: 20px;
+}
+.image h5:hover{
+    cursor: pointer;
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.image2{
+    margin-left: -119px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgb(247, 244, 244);
+}
+.image2:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: orange;
+}
+.image3{
+    margin-left: -130px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgb(247, 244, 244);
+}
+.image3:hover{
+    cursor: pointer;
+    background-color: violet;
+    color:peachpuff;
+}
+.context1{
+    display: block;
+    margin-left: 500px;
+    margin-top: -650px;
+}
+.container2{
+    display: block;
+    margin-left: 110px;
+}
+.context3{
+    display: block;
+    margin-left: 900px;
+    margin-top: -645px;
+}
+.footer1{
+    background-color: black;
+    width: 1680px;
+    height: 300px;
+    margin-top: 30px;
+}
+.footer1 ul{
+    display: flex;
+    margin-left: 350px;
+    margin-top: -30px;
+}
+.footer1 ul li{
+    display: flex;
+    color: white;
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.source img{
+width: 30px;
+height: 30px;
+margin-left: 700px;
+margin-bottom: -60px;
+border-radius: 5px;
+}
+.footer1 ul li:hover{
+    cursor: pointer;
+    text-decoration: underline; 
+    color: darkgoldenrod;
+}
+.source1 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 750px;
+    margin-bottom: -41px;
+    border-radius: 5px;
+}
+.source1 img:hover{
+    cursor: pointer; 
+}
+.source img:hover{
+    cursor: pointer;
+}
+.source2 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 800px;
+    margin-bottom: -22px;
+    border-radius: 5px;
+}
+.source2 img:hover{
+    cursor: pointer;
+}
+.source3 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 850px;
+    margin-top: -11px;
+    border-radius: 5px;
+}
+.source3 img:hover{
+    cursor: pointer;
+}
+
+.container3{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+.container4{
+    width: 400px;
+    height: 500px;
+    border: solid 2px blue;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.container3 img{
+    width: 400px;
+    height: 200px;
+}
+.subscribe button{
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    background-color: red;
+    margin-left: 110px;
+    border-radius: 6px;
+}
+.subscribe button:hover{
+    cursor: pointer;
+    color: wheat;
+    background-color: tomato;
+}
+.subscribe img:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.like img{
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    cursor: pointer;
+}
